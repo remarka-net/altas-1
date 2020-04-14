@@ -22,7 +22,7 @@ export default function Fruits() {
         <div id="MainPart">
           <br />
           <h2 className="main_header">
-            Автосервис ALTAS готов предложить вам полный спектр услуг
+            Добро пожаловать
           </h2>
           <div className="Main_items">
             <div className="car_item1">
@@ -40,14 +40,14 @@ export default function Fruits() {
             </div>
 
             <div className="car_item3">
-              <span>Полная диагностика авто</span>
+              <span>Полная диагностика ЭБУ</span>
             </div>
             <div className="car_item3_extend">
               Компьютерная диагностика технического состояния авто.
             </div>
 
             <div className="car_item4">
-              <span>Проверка на правильность пробега</span>
+              <span>Подлинность пробега</span>
             </div>
             <div className="car_item4_extend">
               Определяем реальный километраж авто.
@@ -79,14 +79,14 @@ export default function Fruits() {
       {/* MainDiv */}
       <div className="our_service">
         <h3 className="second_headline">
-          Предлагаем для вас услуги планового ТО автомобиля
+          Предлагаем Бесплатную услугу автоподбора
         </h3>
 
       <div className="service_block">
         <MyForm />
         <figure>
           <img src={Image} alt="image" />
-          <figcaption>Диагностика авто</figcaption>
+          <figcaption>Автоподбор</figcaption>
         </figure>
         </div>
 
@@ -112,14 +112,14 @@ export default function Fruits() {
       </div>{' '}
       {/* Our_service */}
       <div className="map_contacts">
-        <h4>Наши котакты</h4>
+        <h4>Наши контакты</h4>
         <div className="infoBlock">
           <p className="textBlock1">
             Адрес: <br />
-            г. Киев, Дарнцикий р-н , <br />
+            г. Фастов, Центр , <br />
             ул. Автопарковая 12/1 <br />
-            Телефон:(098) 964-53-12 <br />
-            Е-mail:autoservice@gmail.com
+            Телефон:(+380)63-738-91-93 <br />
+            Е-mail: altascars1@gmail.com
           </p>
           <p className="textBlock2">
             Время работы: <br />
