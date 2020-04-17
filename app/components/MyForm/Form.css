@@ -19,8 +19,8 @@
     width: 90%;
     margin-bottom: 20px;
     border: none; /* Убираем границу для браузера Firefox */
-    color:  rgba(248, 148, 6, 1);; /* Цвет линии для остальных браузеров */
-    background-color:  rgba(248, 148, 6, 1);; /* Цвет линии для браузера Firefox и Opera */
+    color:  rgba(248, 148, 6, 1); /* Цвет линии для остальных браузеров */
+    background-color:  rgba(248, 148, 6, 1); /* Цвет линии для браузера Firefox и Opera */
     height: 2px;
 }
 
@@ -41,13 +41,13 @@
     width: 50%;
     color: white;
     background-color: #50A0ED;
-    box-shadow: 0px 4px 0px #3870A5  ;
+    box-shadow: 0px 4px 0px #3870A5;
     cursor:pointer;
     font-size:22px;
 }
 
 .contact-form input[type="submit"]:hover{
-    background-color: #61A9EE ;
+    background-color: #61A9EE;
     box-shadow: 0px 4px 0px #3870A5;
 
 }
@@ -110,4 +110,9 @@
       .contact-form{
         width: 100%;
       }
+  }
+  @media (max-width: 400px) {
+    .contact-form input[type="submit"] {
+      width: min-content !important;
+  }
   }

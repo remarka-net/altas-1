@@ -1,8 +1,8 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
 import './Form.css';
-import accepted_icon from './checkmark.svg';
 import $ from 'jquery';
+import accepted_icon from './checkmark.svg';
 
 export default function ContactUs() {
   function sendEmail(e) {
@@ -29,14 +29,12 @@ export default function ContactUs() {
       );
   }
 
-  $(document).ready(function(){
-    if($( window ).width() < 1201){
-    $("#FormSubmit").attr("value","Заказать"); 
-  }
-  
+  $(document).ready(function() {
+    if ($(window).width() < 1201) {
+      $('#FormSubmit').attr('value', 'Заказать');
+    }
   });
 
-  
   return (
     <form className="contact-form" onSubmit={sendEmail}>
       <label>Предварительный заказ</label>
@@ -54,7 +52,12 @@ export default function ContactUs() {
 
       <input type="email" placeholder="E-mail" name="user_email" />
 
-      <input id="FormSubmit" type="submit" value="Сделать заказ" data-abbr="Заказать" />
+      <input
+        id="FormSubmit"
+        type="submit"
+        value="Сделать заказ"
+        data-abbr="Заказать"
+      />
 
       <div id="window_container">
         <div id="okno">
