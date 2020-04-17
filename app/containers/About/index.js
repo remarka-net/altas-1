@@ -22,7 +22,7 @@ export default function About() {
         
       <div className="Info_head" id="Info_id">
         <p className="subtitle fancy">
-          <span>ТОВ “ALTAS”</span>
+          <span>“ALTAS”</span>
         </p>
       </div>
 
