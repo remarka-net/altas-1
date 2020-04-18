@@ -66,13 +66,6 @@ export default function Fruits() {
             <div className="car_item6_extend">
               Консультация,установка,настройка.
             </div>
-    
-            <div className="car_item7">
-              <span>Проверка</span>
-            </div>
-            <div className="car_item7_extend">
-              проверка.
-            </div>
           </div>
 
 
