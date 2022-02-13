@@ -24,7 +24,7 @@ export default class Colorful extends React.Component {
         </div>
 
         <div className="feed_wrapper">
-        <iframe src="https://www.feedgrabbr.com/inframe/?widgetid=caf7a286613ccd15c6e9ef927" ></iframe>
+        <iframe src="https://www.feedgrabbr.com/inframe/?widgetid=d4651f31f7978a187547df1b2" ></iframe>
         </div>
 
         </div>
