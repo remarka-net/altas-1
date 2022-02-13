@@ -27,7 +27,7 @@
     "test": "cross-env NODE_ENV=test jest --coverage",
     "start:tunnel": "cross-env NODE_ENV=development ENABLE_TUNNEL=true node server",
     "start:production": "npm run test && npm run build && npm run start:prod",
-    "start:prod": "react-scripts --openssl-legacy-provider start",
+    "start:prod": "cross-env NODE_ENV=development node server",
     "presetup": "npm i chalk shelljs",
     "setup": "node ./internals/scripts/setup.js",
     "clean": "shjs ./internals/scripts/clean.js",
